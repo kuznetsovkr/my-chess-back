@@ -2,7 +2,7 @@ const express = require('express')
 const http = require('http')
 const socketio = require('socket.io')
 const gameLogic = require('./game-logic')
-const app = express()
+const index = express()
 
 /**
  * Backend flow:
@@ -14,7 +14,7 @@ const app = express()
  */
 
 
-const server = http.createServer(app)
+const server = http.createServer(index)
 const io = socketio(server)
 
 // get the gameID encoded in the URL.
