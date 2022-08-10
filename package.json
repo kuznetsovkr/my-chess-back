@@ -1,5 +1,5 @@
 {
-  "name": "chess-game-backend",
+  "name": "my_chess_back",
   "version": "1.0.0",
   "description": "Backend portion of my multi-player chess game",
   "main": "index.js",
